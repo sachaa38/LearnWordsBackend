@@ -64,7 +64,7 @@ schedule.scheduleJob(testTime, () => {
 });
 
 // ➡️ Notification quotidienne à 23h07
-schedule.scheduleJob({ hour: 19, minute: 28 }, () => {
+schedule.scheduleJob({ hour: 17, minute: 29 }, () => {
   console.log("⏰ Envoi notification quotidienne...");
   sendNotifications("Mots du jour 📝", "5 nouveaux mots t’attendent !");
 });
